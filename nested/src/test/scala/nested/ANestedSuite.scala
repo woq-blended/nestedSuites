@@ -10,7 +10,7 @@ class ANestedSuite(dummy : Int) extends AnyFreeSpec {
 
   "The nested suites should" - {
 
-    "also be exectuted" in {
+    "also be executed" in {
       assert(true)
     }
   }

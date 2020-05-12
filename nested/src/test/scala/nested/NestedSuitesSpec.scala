@@ -17,13 +17,11 @@ class NestedSuitesSpec extends AnyFreeSpec {
 
 
   override def run(testName: Option[String], args: Args): Status = {
-    println(suiteName + " - " + testName)
     super.run(testName, args)
   }
 
 
   override protected def runNestedSuites(args: Args): Status = {
-    println(args)
     super.runNestedSuites(args)
   }
 

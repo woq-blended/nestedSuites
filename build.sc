@@ -14,6 +14,7 @@ object nested extends SbtModule {
       ivy"org.scalatest::scalatest:3.1.1"
     )}
 
+    /* This is just a workaround to see if it actually works */
     def itest() = T.command {
 
       val dir = T.dest

@@ -1,4 +1,6 @@
-out
-.idea
-.idea_modules
+/out/
+/.idea/
+/.idea_modules/
 
+#sbt example
+target/
